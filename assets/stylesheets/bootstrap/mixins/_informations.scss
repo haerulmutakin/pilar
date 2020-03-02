@@ -1,0 +1,10 @@
+// Informations
+
+@mixin information-variant($border) {
+  background-color: lighten($border, 32%);
+  border-color: $border;
+
+  hr {
+    border-top-color: darken($border, 5%);
+  }
+}

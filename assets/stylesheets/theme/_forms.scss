@@ -1,0 +1,65 @@
+@import "~compass-mixins/lib/compass/css3/user-interface";
+
+
+.form-control{
+  @include input-placeholder {
+    font-style: italic;
+  }
+  // &.searching{
+  //   background-image: url($images-root + 'loader/ajax-loader-input.gif');
+  //   background-position: center right 10px;
+  //   background-repeat: no-repeat;
+  // }
+}
+
+.input-group-default{
+  .form-control{
+    border-color: $uii-input-group-default-border-cl;
+    background-color: $uii-input-group-default-bg;
+    box-shadow: none;
+    @include input-placeholder {
+      color: $uii-input-group-default-placeholder-cl;
+    }
+  }
+}
+
+.form-upload-image-preview{
+  border-color: $uii-file-image-preview-border-cl;
+  border-style: dashed;
+}
+
+.control-label{
+  &.control-required:after {
+    color: $brand-danger;
+  }
+}
+
+.control-note{
+  p{
+    color: $uii-control-note-cl;
+  }
+}
+
+.form-group{
+  &.has-error{
+    .ngx-select__toggle{
+      border-color: #a94442;
+    }
+  }
+}
+
+.form-upload-photo {
+  
+  .form-upload-photo-input {
+    border-color: #BDBDBD;
+  }
+}
+.form-upload-photo-preview{
+  .change-photo{
+    background-color: black;
+    .fa {
+      color: white;   
+    }
+  }
+}
+

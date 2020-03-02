@@ -1,0 +1,116 @@
+$background-color-primary: #EEEEEE !default;
+$background-color-secondary: #ffffff !default;
+$text-color-tab: #979797 !default;
+$text-color-default: #555555 !default;
+
+// Scaffolding
+$uii-body-bg: $background-color-primary;
+$uii-body-home-bg: $background-color-secondary;
+$uii-highlight: $brand-warning;
+$uii-img-placeholder-bg: $brand-default;
+
+// Badge
+$uii-badge-default-bg: $brand-default;
+$uii-badge-primary-bg: $brand-primary;
+$uii-badge-secondary-bg: $brand-secondary;
+$uii-badge-tertiary-bg: $brand-tertiary;
+$uii-badge-quartenary-bg: $brand-quartenary;
+$uii-badge-info-bg: $brand-info;
+$uii-badge-warning-bg: $brand-warning;
+$uii-badge-success-bg: $brand-success;
+$uii-badge-danger-bg: $brand-danger;
+
+// Button
+$uii-button-unstyled-hover-cl: $text-color-default;
+
+// Dropdown
+$uii-dropdown-separator-border-cl: $brand-default;
+$uii-dropdown-btn-link-cl: $brand-secondary;
+
+// Input Groups
+$uii-input-group-default-bg: $background-color-primary;
+$uii-input-group-default-border-cl: $background-color-primary;
+$uii-input-group-default-placeholder-cl: $brand-default;
+
+// Forms
+$uii-control-note-cl: $text-color-tab;
+$uii-file-image-preview-border-cl: $brand-primary;
+
+// Media
+$uii-media-bg: $background-color-primary;
+$uii-media-right-bg: $background-color-secondary;
+
+// Pagination
+$uii-pagination-primary-bg: $brand-primary;
+$uii-pagination-primary-cl: $brand-primary;
+$uii-pagination-secondary-bg: $brand-secondary;
+$uii-pagination-secondary-cl: $brand-secondary;
+$uii-pagination-quartenary-bg: $brand-quartenary;
+$uii-pagination-quartenary-cl: $brand-quartenary;
+
+// Modals
+$uii-modal-detail-header-border-cl: $brand-warning;
+$uii-modal-alert-header-bg: $brand-default;
+$uii-modal-alert-info-header-bg: $brand-info;
+$uii-modal-alert-success-header-bg: $brand-success;
+$uii-modal-alert-warning-header-bg: $brand-warning;
+$uii-modal-alert-danger-header-bg: $brand-danger;
+$uii-modal-alert-info-icon-cl: $brand-info;
+$uii-modal-alert-success-icon-cl: $brand-success;
+$uii-modal-alert-warning-icon-cl: $brand-warning;
+$uii-modal-alert-danger-icon-cl: $brand-danger;
+
+// Tabs
+$uii-tab-hover-bg: $brand-default;
+$uii-tab-active-bg: $brand-primary;
+$uii-tab-hover-cl: $background-color-secondary;
+$uii-nav-tab-border-bottom-cl: $brand-warning;
+
+// Table
+$uii-table-underlined-border-cl: $brand-default;
+
+// Well
+$uii-well-border-cl: $brand-default; 
+$uii-well-disable-bg-cl: $background-color-primary;
+
+// Notification
+$uii-notification-date-cl: $brand-default;
+$uii-notification-unread-bg: $background-color-primary;
+
+// Navbar 
+$uii-navbar-bg: $background-color-primary; 
+$uii-navbar-toggle-bar-bg: $brand-primary;
+
+// Breadcrumb
+$uii-breadcrumb-bg: $background-color-secondary;
+
+// Sidebar
+$uii-sidebar-bg: $background-color-secondary;
+$uii-sidebar-overlay-bg: lighten($gray-base, 40%);
+$uii-sidebar-header-bg: $background-color-primary;
+$uii-menu-item-border-cl: $background-color-primary;
+$uii-menu-item-active-bg: $brand-primary;
+$uii-menu-item-active-cl: $background-color-secondary;
+$uii-menu-items-active-border-left-cl: $brand-warning;
+
+// Header
+$uii-account-role-cl: $brand-success;
+$uii-account-id-cl: $text-color-tab;
+$uii-account-option-cl: $text-color-default;
+$uii-account-logout-cl: $brand-danger;
+$uii-navbar-dropdown-mobile-bg: $background-color-secondary;
+
+// Content
+$uii-content-bg: $background-color-secondary;
+$uii-content-header-title-cl: $text-color; //$brand-primary;
+$uii-content-header-title-border-cl: $brand-warning;
+
+// Home
+$uii-app-title-cl: $brand-primary;
+
+// Login
+$uii-welcome-greeting-title: $brand-warning;
+$uii-welcome-greeting-description: $background-color-secondary;
+
+// Profile
+$uii-profile-sidebar-bg: $brand-warning;

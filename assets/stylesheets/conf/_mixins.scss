@@ -1,0 +1,53 @@
+@mixin middlePos() {
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+@mixin centerPos() {
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+@mixin middleCenterPos() {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+@mixin png-icon($url, $width, $height) {
+  display: inline-block;
+  width: $width + px;
+  height: $height + px;
+  background: url($url) no-repeat center center;
+  background-size: $width + px $height + px;
+}
+
+// @mixin png-icon-class($iconName, $width, $height) {
+//   .#{'i-' + $iconName} {
+//       @include png-icon($images-root + $iconName + '.png', $width, $height);
+//   }
+// }
+
+// Form Icon Class
+// @mixin png-form-icon-class($iconName) {
+//   .#{'form-icon-' + $iconName} {
+//       background-image: url($icons-root + $iconName + '.webp');
+//   }
+// }
+
+@mixin table-2column-variant($colum-1-width, $column-2-width) {
+  > tbody{
+    > tr{
+      > td {
+        &:first-child{
+          width: $colum-1-width;
+        }
+        &:last-child{
+          width: $column-2-width;
+        }
+      }
+    }
+  }
+}

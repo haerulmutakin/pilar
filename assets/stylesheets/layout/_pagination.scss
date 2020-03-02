@@ -1,0 +1,10 @@
+.justify-pagination {
+    display: flex !important;
+    &.center {justify-content: center !important;}
+    &.left {justify-content: flex-start !important;}
+    &.right {justify-content: flex-end !important;}
+}
+
+.pagination > li > a {
+    font-size: 16px;
+}

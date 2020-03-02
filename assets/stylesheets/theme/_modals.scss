@@ -1,0 +1,60 @@
+.modal-dialog{
+  &.modal-detail{
+    .modal-header{
+      border-bottom-color: $uii-modal-detail-header-border-cl;
+    }
+    .modal-footer{
+      border-top-color: $uii-modal-detail-header-border-cl;
+    }
+  }
+  &.modal-alert{
+    .modal-header{
+      background-color: $uii-modal-alert-header-bg;
+    }
+
+    &.modal-info{
+      .modal-header{
+        background-color: $uii-modal-alert-info-header-bg;
+      }
+      .modal-icon > .icon-modal-info {
+        color: $uii-modal-alert-info-icon-cl;
+      }
+      .btn-confirm {
+        @extend .btn-info;
+      }
+    }
+    &.modal-success{
+      .modal-header{
+        background-color: $uii-modal-alert-success-header-bg;
+      }
+      .modal-icon > .icon-modal-success {
+        color: $uii-modal-alert-success-icon-cl;
+      }
+      .btn-confirm {
+        @extend .btn-success;
+      }
+    }
+    &.modal-warning{
+      .modal-header{
+        background-color: $uii-modal-alert-warning-header-bg;
+      }
+      .modal-icon > .icon-modal-warning {
+        color: $uii-modal-alert-warning-icon-cl;
+      }
+      .btn-confirm {
+        @extend .btn-warning;
+      }
+    }
+    &.modal-danger{
+      .modal-header{
+        background-color: $uii-modal-alert-danger-header-bg;
+      }
+      .modal-icon > .icon-modal-danger {
+        color: $uii-modal-alert-danger-icon-cl;
+      }
+      .btn-confirm {
+        @extend .btn-danger;
+      }
+    }
+  }
+}

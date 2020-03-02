@@ -1,0 +1,67 @@
+.nav-wizard{
+  >li{
+    >a{
+      color: #777;
+      background-color: #eee;
+      .badge {
+        color: #eee;
+        background-color: #4DB6AC;
+      }
+    }
+    &.done:hover>a,
+    &:hover>a {
+      background-color: #d5d5d5;
+      &:before {
+        border-right-color: #d5d5d5;
+      }
+      &:after {
+        border-left-color: #d5d5d5;
+      }
+    }
+    &:not(.disabled).done:hover>a,
+    &:not(.disabled):hover>a{
+      h3,
+      p{
+        color: #fff;
+      }
+    }
+    &.done>a {
+      background-color: #e2e2e2;
+      &:before {
+        border-right-color: #e2e2e2;
+      }
+      &:after {
+        border-left-color: #e2e2e2;
+      }
+    }
+    &.active{
+      >a,
+      >a:hover,
+      >a:focus {
+        color: #fff;
+        background-color: #4DB6AC;
+      }
+      >a:after {
+        border-left-color: #4DB6AC;
+      }
+      >a .badge {
+        color: #4DB6AC;
+        background-color: #fff;
+      }
+    }
+    &.disabled>a {
+      color: #777;
+      &:hover,
+      &:focus {
+        color: #777;
+        background-color: #eee;
+      }
+      &:before {
+        border-right-color: #eee;
+      }
+      &:after {
+        border-left-color: #eee;
+      }
+    }
+  }
+}

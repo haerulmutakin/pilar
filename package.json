@@ -1,0 +1,57 @@
+{
+  "name": "pilar",
+  "version": "1.7.8",
+  "description": "UI Library for UIIGateway",
+  "author": {
+    "name": "Dian Sigit Prastowo",
+    "email": "diansigit.p@gmail.com",
+    "url": "http://codetraveler.net"
+  },
+  "contributors": [
+    {
+      "name": "Haerul Mutakin",
+      "email": "13523219@students.uii.ac.id"
+    },
+    {
+      "name": "Luthfi Anggy Kurniawan",
+      "email": "luthfikurniawan134@gmail.com"
+    },
+    {
+      "name": "Maghfirah Suyuti",
+      "email": "maghfirah.suyuti@gmail.com"
+    },
+    {
+      "name": "Andri Heru Saputra",
+      "email": "andriherusaputra@ymail.com"
+    },
+    {
+      "name": "Rofi Abul Hasani",
+      "email": "shir0fi@gmail.com"
+    },
+    {
+      "name": "Fakhrul Hasbi",
+      "email": "fakhrulhasbi@uii.ac.id"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab-cloud.uii.ac.id/uii-gateway/frontend/lib-uii-gateway-pilar-angular.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/pilar.umd.js",
+  "module": "fesm5/pilar.js",
+  "es2015": "fesm2015/pilar.js",
+  "esm5": "esm5/pilar.js",
+  "esm2015": "esm2015/pilar.js",
+  "fesm5": "fesm5/pilar.js",
+  "fesm2015": "fesm2015/pilar.js",
+  "typings": "pilar.d.ts",
+  "metadata": "pilar.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

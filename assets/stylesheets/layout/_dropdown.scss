@@ -1,0 +1,35 @@
+.dropdown-header{
+  font-size: $font-size-dropdown;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-top: -5px;
+  padding: 10px;
+}
+.dropdown-content{
+  font-size: $font-size-dropdown;
+  max-height: 260px;
+  overflow-y: auto;
+  a, .btn{
+    font-size: $font-size-dropdown;
+  }
+}
+.dropdown-footer{
+  font-size: $font-size-dropdown;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: -5px;
+  padding: 10px;
+  a, .btn-link{
+    display: block;
+  }
+}
+
+.dropdown-menu{
+  .dropdown-content{
+    > ul {
+      > li:not(.divider){
+        padding: 3px 10px;
+      }
+    }
+  }
+}

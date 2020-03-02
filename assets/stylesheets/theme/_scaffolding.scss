@@ -1,0 +1,76 @@
+.base{
+  background-color: $uii-body-bg;
+  &.is-home{
+    background-color: $uii-body-home-bg;
+  }
+}
+
+span.highlight{
+  color: $uii-highlight;
+}
+
+.img-placeholder{
+  background-color: $uii-img-placeholder-bg;
+}
+
+.sidebar-overlay{
+  background-color: $uii-sidebar-overlay-bg;
+}
+
+.color-primary{
+  color: $brand-primary;
+}
+.color-secondary{
+  color: $brand-secondary;
+}
+.color-tertiary{
+  color: $brand-tertiary;
+}
+.color-quartenary{
+  color: $brand-quartenary;
+}
+.color-info{
+  color: $brand-info;
+}
+.color-success{
+  color: $brand-success;
+}
+.color-warning{
+  color: $brand-warning;
+}
+.color-danger{
+  color: $brand-danger;
+}
+
+hr{
+  &.line-md{
+    border-top-width: 2px;
+  }
+  &.line-default{
+    border-top-color: $brand-default;
+  }
+  &.line-primary{
+    border-top-color: $brand-primary;
+  }
+  &.line-secondary{
+    border-top-color: $brand-secondary;
+  }
+  &.line-tertiary{
+    border-top-color: $brand-tertiary;
+  }
+  &.line-quartenary{
+    border-top-color: $brand-quartenary;
+  }
+  &.line-info{
+    border-top-color: $brand-info;
+  }
+  &.line-success{
+    border-top-color: $brand-success;
+  }
+  &.line-warning{
+    border-top-color: $brand-warning;
+  }
+  &.line-danger{
+    border-top-color: $brand-danger;
+  }
+}

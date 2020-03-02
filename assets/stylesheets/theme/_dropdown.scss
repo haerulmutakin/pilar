@@ -1,0 +1,16 @@
+.dropdown-header{
+  border-bottom-color: $uii-dropdown-separator-border-cl;
+  &.dropdown-header-warning{
+    border-bottom-color: $brand-warning;
+  }
+}
+.dropdown-footer{
+  border-top-color: $uii-dropdown-separator-border-cl;
+  &.dropdown-footer-warning{
+    border-top-color: $brand-warning;
+  }
+  a,
+  .btn-link{
+    color: $uii-dropdown-btn-link-cl;
+  }
+}

@@ -1,0 +1,8 @@
+.btn-unstyled{
+  background: none;
+  &:hover,
+  &:focus,
+  &.focus{
+    color: $uii-button-unstyled-hover-cl;
+  }
+}

@@ -1,0 +1,33 @@
+.subject-wrapper-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subject-container {
+    height: 450px;
+    overflow-y: auto;
+    &.subject-container-right {
+        height: 458px;
+        margin-top: 15px;
+    }
+}
+.media {
+    margin-top: 3px;
+    .label-sm {
+        font-size: 10px;
+    }
+    .media-left, .media-body, .media-right{
+        padding: 0 0 0 5px;
+    }
+    .media-label-right{
+        text-align: right;
+        width: 22%;
+        padding-right: 8px;
+    }
+    .media-heading {
+        margin-bottom: 0;
+    }
+    .media-content {
+        font-size: 10px;
+        margin-top: -5px;
+    }
+}

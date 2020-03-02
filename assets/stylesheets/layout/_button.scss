@@ -1,0 +1,73 @@
+.btn-unstyled{
+  border: none;
+  padding: 0;
+  outline: none;
+  white-space: normal;
+  &:focus,
+  &:active{
+    outline: none;
+  }
+}
+.input-group-search{
+  .btn{
+    font-size: 20px;
+    line-height: 35px;
+    padding: 3px 10px 0;
+  }
+
+}
+.button-action-right{
+  text-align: right;
+}
+.button-action-left{
+  text-align: left;
+}
+.button-action-center{
+  text-align: center;
+}
+.button-action,
+.button-action-right,
+.button-action-left,
+.button-action-center,
+.card-footer,
+.input-group-button{
+  margin-bottom: 10px;
+  .btn{
+    min-width: 150px;
+    margin-bottom: 10px;
+
+    @media (max-width: 490px) {
+      min-width: 110px;
+    }
+  }
+}
+.button-action,
+.button-action-right,
+.button-action-left,
+.button-action-center{
+  .btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.card-footer{
+  margin-top: 30px;
+  margin-bottom: 0;
+  .btn.pull-right{
+    margin-left: 10px;
+  }
+}
+
+.input-group-button{
+  span.input-group-btn:last-child{
+    .btn{
+      margin-left: 15px;
+    }
+  }
+}

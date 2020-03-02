@@ -1,0 +1,9 @@
+.table{
+  > tbody{
+    > tr{
+      >td.underlined{
+        border-bottom-color: $uii-table-underlined-border-cl;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.media {
+    .media-body, .media-left, .media-right{
+        background-color:  $uii-media-bg;
+    }
+    .media-right{
+        &.media-button-right{
+            background-color: $uii-media-right-bg;
+        }
+    }
+}

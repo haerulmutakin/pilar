@@ -1,0 +1,46 @@
+.uii-pagination-primary {
+    .pagination > .active > a {
+        background-color: $uii-pagination-primary-bg !important;
+        border-color: $uii-pagination-primary-bg !important;
+        color: #fff;
+    }
+    .pagination > li > a {
+        color: $uii-pagination-primary-cl;
+    }
+    .pagination > li > a:hover {
+        background-color: $uii-pagination-primary-bg !important;
+        border-color: $uii-pagination-primary-bg !important;
+        color: #fff;
+    }
+}
+.uii-pagination-secondary {
+    .pagination > .active > a {
+        background-color: $uii-pagination-secondary-bg !important;
+        border-color: $uii-pagination-secondary-bg !important;
+        color: #fff;
+    }
+    .pagination > li > a {
+        color: $uii-pagination-secondary-cl;
+    }
+    .pagination > li > a:hover {
+        background-color: $uii-pagination-secondary-bg !important;
+        border-color: $uii-pagination-secondary-bg !important;
+        color: #fff;
+    }
+}
+
+.uii-pagination-quartenary {
+    .pagination > .active > a {
+        background-color: $uii-pagination-quartenary-bg !important;
+        border-color: $uii-pagination-quartenary-bg !important;
+        color: #fff;
+    }
+    .pagination > li > a {
+        color: $uii-pagination-quartenary-cl;
+    }
+    .pagination > li > a:hover {
+        background-color: $uii-pagination-quartenary-bg !important;
+        border-color: $uii-pagination-quartenary-bg !important;
+        color: #fff;
+    }
+}

@@ -1,0 +1,50 @@
+accordion{
+  .panel-heading{
+    position: relative;
+    .close,
+    .arrow{
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .arrow{
+      right: 60px;
+      font-size: 30px;
+    }
+
+    .arrow-right-position{
+      right: 18px;
+    }
+    .close{
+      border-left: 1px solid #fff;
+      border-radius: 0;
+      box-sizing: border-box;
+      font-size: 24px;
+      color: #fff;
+      margin: 0;
+      opacity: 1;
+      text-shadow: none;
+      width: 44px;
+      height: 54px;
+    }
+  }
+  &.panel-group .panel + .panel{
+    margin-top: 15px;
+  }
+}
+.accordion-with-radio-checkbox{
+  &.panel-group{
+    padding-left: 65px;
+  }
+  .panel-heading{
+    .abc-radio,
+    .abc-chechbox{
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: -50px;
+      transform: translateY(-50%);
+    }
+  }
+}

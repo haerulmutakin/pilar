@@ -1,0 +1,152 @@
+.table {
+  &.table-check-radio-box {
+    >tbody {
+      >tr {
+        >th {
+          border: none;
+        }
+
+        >td {
+          border: none;
+          padding: 5px;
+          vertical-align: middle;
+
+          &:first-child {
+            padding-left: 0;
+            max-width: 150px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &.table-unbordered {
+    >tbody {
+      >tr {
+
+        >th,
+        >td {
+          border: none;
+        }
+      }
+    }
+  }
+
+  &.table-valign-middle {
+    >tbody {
+      >tr {
+        >td {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  &.table-no-padding {
+    >tbody {
+      >tr {
+        >td {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  >tbody {
+    >tr {
+      >td {
+        &.underlined {
+          border-bottom-width: 1px;
+          border-bottom-style: solid;
+        }
+
+        strong {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.table-10-90 {
+  @include table-2column-variant(10%, 90%);
+}
+
+.table-20-80 {
+  @include table-2column-variant(20%, 80%);
+}
+
+.table-30-70 {
+  @include table-2column-variant(30%, 70%);
+}
+
+.table-40-60 {
+  @include table-2column-variant(40%, 60%);
+}
+
+.table-50-50 {
+  @include table-2column-variant(50%, 50%);
+}
+
+.table-80-20 {
+  @include table-2column-variant(80%, 20%);
+}
+
+.table-20-30-20-30 {
+  tr {
+
+    >td:nth-child(1),
+    >td:nth-child(3) {
+      width: 20%;
+    }
+
+    >td:nth-child(2),
+    >td:nth-child(4) {
+      width: 30%;
+    }
+  }
+}
+
+.table-16 {
+  tr {
+    >td {
+      width: 16.66666%;
+    }
+  }
+}
+
+.scrollable-table {
+  display: block;
+  max-height: 300px;
+  overflow: scroll;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  table {
+    border-collapse: collapse;
+    width: 200%;
+  }
+
+  thead th {
+    position: sticky;
+    top: 0;
+  }
+
+  thead th:first-child {
+    left: 0;
+    z-index: 1;
+  }
+
+  tbody th {
+    position: sticky;
+    left: 0;
+    background: #F0F0F0;
+  }
+
+}

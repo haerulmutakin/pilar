@@ -1,0 +1,34 @@
+import { OnInit, EventEmitter, QueryList, AfterContentInit, OnChanges } from '@angular/core';
+import { WizardStepComponent } from './wizard-step.component';
+import { Subject } from 'rxjs';
+export declare class WizardComponent implements OnInit, AfterContentInit, OnChanges {
+    wizardSteps: QueryList<WizardStepComponent>;
+    _steps: Array<WizardStepComponent>;
+    _isCompleted: boolean;
+    cancelLbl: string;
+    previousLbl: string;
+    nextLbl: string;
+    doneLbl: string;
+    clickTabEnable: boolean;
+    forceStep: number;
+    formSubmitting: boolean;
+    pagingLabel: any;
+    wizardNextTrigger: Subject<any>;
+    onStepChanged: EventEmitter<WizardStepComponent>;
+    constructor();
+    ngOnInit(): void;
+    ngAfterContentInit(): void;
+    ngOnChanges(): void;
+    readonly steps: Array<WizardStepComponent>;
+    readonly isCompleted: boolean;
+    activeStep: WizardStepComponent;
+    readonly activeStepIndex: number;
+    readonly hasNextStep: boolean;
+    readonly hasPrevStep: boolean;
+    goToStep(step: WizardStepComponent): void;
+    revertToStep(stepIndex: any): void;
+    next(): void;
+    previous(): void;
+    complete(): void;
+    cancel(): void;
+}

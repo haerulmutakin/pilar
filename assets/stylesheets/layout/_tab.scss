@@ -1,0 +1,14 @@
+.tab {
+    .nav-tabs.nav-justified {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+
+        >.nav-item {
+            .nav-link {
+                border: none;
+                border-bottom-width: 4px;
+                border-bottom-style: solid;
+            }
+        }
+    }
+}

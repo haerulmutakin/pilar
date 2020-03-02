@@ -1,0 +1,17 @@
+.notification-item{
+  position: relative;
+  padding: 5px 10px 5px 50px;
+  text-align: left;
+  .notif-image{
+    position: absolute;
+    top: 10px;
+  }
+  .notif-content{
+    > span{
+      display: block;
+      &.notif-content__date{
+        font-size: 10px;
+      }
+    }
+  }
+}

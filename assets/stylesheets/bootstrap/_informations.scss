@@ -1,0 +1,65 @@
+//
+// Informations
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+.information {
+  padding: $information-padding;
+  margin-bottom: $line-height-computed;
+  border: 1px solid $gray;
+  border-left-width: 10px;
+  border-radius: $information-border-radius;
+
+  // Headings for larger informations
+  h4 {
+    margin-top: 0;
+    // Specified for the h4 to prevent conflicts of changing $headings-color
+    color: inherit;
+  }
+
+  // Provide class for links that match informations
+  .information-link {
+    font-weight: $information-link-font-weight;
+  }
+
+  // Improve alignment and spacing of inner content
+  > p,
+  > ul {
+    margin-bottom: 0;
+  }
+
+  > p + p {
+    margin-top: 5px;
+  }
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the information.
+.information-default {
+  @include information-variant($information-default-border);
+}
+.information-primary {
+  @include information-variant($information-primary-border);
+}
+.information-secondary {
+  @include information-variant($information-secondary-border);
+}
+.information-tertiary {
+  @include information-variant($information-tertiary-border);
+}
+.information-success {
+  @include information-variant($information-success-border);
+}
+.information-info {
+  @include information-variant($information-info-border);
+}
+.information-warning {
+  @include information-variant($information-warning-border);
+}
+.information-danger {
+  @include information-variant($information-danger-border);
+}

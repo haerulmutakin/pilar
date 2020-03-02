@@ -1,0 +1,131 @@
+@import "~ngx-bootstrap/datepicker/bs-datepicker.css";
+@import "~awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css";
+@import "~ng-pick-datetime/assets/style/picker.min.css";
+.abc-checkbox-primary input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-primary input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-primary input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-primary input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-danger input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-danger input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-danger input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-danger input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-info input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-info input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-info input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-info input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-warning input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-warning input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-warning input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-warning input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-success input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-success input[type="radio"]:indeterminate+label::before,
+.abc-checkbox-success input[type="checkbox"]:indeterminate+label::before,
+.abc-checkbox-success input[type="radio"]:indeterminate+label::before {
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+.abc-checkbox input[type="checkbox"]:indeterminate+label::after,
+.abc-checkbox input[type="radio"]:indeterminate+label::after {
+  display: none;
+}
+
+.abc-checkbox-primary input[type="checkbox"]:checked+label::before,
+.abc-checkbox-primary input[type="radio"]:checked+label::before,
+.abc-radio-primary input[type="radio"]+label::after,
+.abc-radio-primary input[type="radio"]:checked+label::after {
+  background-color: $brand-primary;
+}
+
+.abc-checkbox-primary input[type="checkbox"]:checked+label::before,
+.abc-checkbox-primary input[type="radio"]:checked+label::before,
+.abc-radio-primary input[type="radio"]:checked+label::before {
+  border-color: $brand-primary;
+}
+
+.abc-checkbox-danger input[type="checkbox"]:checked+label::before,
+.abc-checkbox-danger input[type="radio"]:checked+label::before,
+.abc-radio-danger input[type="radio"]+label::after,
+.abc-radio-danger input[type="radio"]:checked+label::after {
+  background-color: $brand-danger;
+}
+
+.abc-checkbox-danger input[type="checkbox"]:checked+label::before,
+.abc-checkbox-danger input[type="radio"]:checked+label::before,
+.abc-radio-danger input[type="radio"]:checked+label::before,
+label .was-validated .form-check-input:invalid .abc-checkbox:before,
+label .was-validated .form-check-input:invalid .abc-radio:before,
+label .form-check-input.is-invalid .abc-checkbox:before,
+label .form-check-input.is-invalid .abc-radio:before {
+  border-color: $brand-danger;
+}
+
+.abc-checkbox-info input[type="checkbox"]:checked+label::before,
+.abc-checkbox-info input[type="radio"]:checked+label::before,
+.abc-radio-info input[type="radio"]+label::after,
+.abc-radio-info input[type="radio"]:checked+label::after {
+  background-color: $brand-info;
+}
+
+.abc-checkbox-info input[type="checkbox"]:checked+label::before,
+.abc-checkbox-info input[type="radio"]:checked+label::before,
+.abc-radio-info input[type="radio"]:checked+label::before {
+  border-color: $brand-info;
+}
+
+.abc-checkbox-warning input[type="checkbox"]:checked+label::before,
+.abc-checkbox-warning input[type="radio"]:checked+label::before,
+.abc-radio-warning input[type="radio"]+label::after,
+.abc-radio-warning input[type="radio"]:checked+label::after {
+  background-color: $brand-warning;
+}
+
+.abc-checkbox-warning input[type="checkbox"]:checked+label::before,
+.abc-checkbox-warning input[type="radio"]:checked+label::before,
+.abc-radio-warning input[type="radio"]:checked+label::before {
+  border-color: $brand-warning;
+}
+
+.abc-checkbox-success input[type="checkbox"]:checked+label::before,
+.abc-checkbox-success input[type="radio"]:checked+label::before,
+.abc-radio-success input[type="radio"]+label::after,
+.abc-radio-success input[type="radio"]:checked+label::after {
+  background-color: $brand-success;
+}
+
+.abc-checkbox-success input[type="checkbox"]:checked+label::before,
+.abc-checkbox-success input[type="radio"]:checked+label::before,
+.abc-radio-success input[type="radio"]:checked+label::before {
+  border-color: $brand-success;
+}
+
+.abc-radio label,
+.abc-checkbox label {
+  display: inline-block;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: normal; // &:before{
+  //   top: -1px;
+  // }
+  // &:after{
+  //   top: 2px;
+  // }
+}
+
+.abc-checkbox label {
+  padding-left: 12px;
+}
+
+.abc-radio label {
+  text-align: center;
+}
+
+.abc-radio-table {
+  margin: 7.5px 0 0;
+  line-height: normal;
+  padding: 0 15px;
+}
+
+.owl-dt-container {
+  font-size: 14px;
+}

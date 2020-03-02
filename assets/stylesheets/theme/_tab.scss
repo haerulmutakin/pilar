@@ -1,0 +1,19 @@
+.tab{
+    .nav-tabs.nav-justified{
+        border-bottom-color: $uii-nav-tab-border-bottom-cl;
+        > .nav-item{
+            .nav-link {
+                font-weight: 700;
+                border-bottom-color: transparent;
+                &.active{
+                    border-bottom-color: $uii-tab-active-bg;
+                }
+                &:hover{
+                    background-color: $uii-tab-hover-bg;
+                    color: $uii-tab-hover-cl;
+                }
+
+            }
+        }
+    }
+}
